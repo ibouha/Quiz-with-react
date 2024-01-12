@@ -1,0 +1,42 @@
+export const datafull = [
+    {
+      question: "Quest-ce que MERN stack?",
+      option1: "MongoDB, Express.js, React, Node.js",
+      option2: "MySQL, Express.js, React, Node.js",
+      option3: "MongoDB, Ember.js, React, Node.js",
+      option4: "MongoDB, Express.js, Angular, Node.js",
+      ans: 1,
+    },
+    {
+      question: "Quel est l'avantage de l'utilisation d'une architecture fullstack?",
+      option1: "Meilleure performance",
+      option2: "Meilleure sécurité",
+      option3: "Meilleure séparation des préoccupations",
+      option4: "Meilleure gestion des bases de données",
+      ans: 3,
+    },
+    {
+      question: "Quel est le rôle principal de Redux dans une application React?",
+      option1: "Gestion de l'état global",
+      option2: "Gestion des routes",
+      option3: "Gestion des composants",
+      option4: "Gestion des requêtes HTTP",
+      ans: 1,
+    },
+    {
+      question: "Quelle est la principale responsabilité d'un backend dans une application fullstack?",
+      option1: "Affichage des données",
+      option2: "Gestion de l'interface utilisateur",
+      option3: "Traitement des requêtes HTTP",
+      option4: "Validation des formulaires",
+      ans: 3,
+    },
+    {
+      question: "First page of Website is termed as?",
+      option1: "Index Page",
+      option2: "Homepage",
+      option3: "Sitemap",
+      option4: "Pen Drive",
+      ans: 2,
+    },
+  ];

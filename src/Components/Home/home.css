@@ -1,0 +1,112 @@
+/* src/App.css */
+
+
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 130px;
+    padding: 30px 100px;
+    background-color:#111E2A;
+    color: white;
+  }
+
+  
+  nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 80px;
+    
+
+  }
+  
+  nav li {
+    list-style: none;
+    padding: 0 15px;
+    font-size: 1.5rem;
+    font-weight: 600;
+
+    cursor: pointer;
+  }
+  .contact{
+    margin-left: 15px;
+    font-size: 28px;
+    background-color: white;
+    border-radius: 5px;
+    color:#111E2A ;
+  }
+  .contact:hover{
+    color: #111E2A;
+    background-color: rgb(194, 194, 194);
+  }
+  nav li:hover{
+    color: aqua;
+  }
+
+  .logo{
+    width: 120px;
+    height: 120px;
+    cursor: pointer;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 887px;
+    background-color:#111E2A;
+    color: white;
+    }
+    .homeimage{
+      width: 1300px;
+      height: 750px;
+    }
+    .left{
+      margin-left: 80px;
+      margin-bottom: 100px;
+    }
+    .title{
+      margin-right: 400px;
+      font-size: 90px;
+    }
+    p{
+      font-size: 25px;
+    }
+   
+    .button{
+      font-size: 30px;
+      width: 300px;
+      height: 80px;
+      background-color: aqua;
+      border-radius: 10px;
+    }
+    .button span {
+      cursor: pointer;
+      display: inline-block;
+      position: relative;
+      transition: 0.5s;
+    }
+    
+    .button span:after {
+      content: '\00bb';
+      position: absolute;
+      opacity: 0;
+      top: 0;
+      right: -20px;
+      transition: 0.5s;
+    }
+    
+    .button:hover span {
+      padding-right: 25px;
+    }
+    
+    .button:hover span:after {
+      opacity: 1;
+      right: 0;
+    }
+    
+  
+
+  

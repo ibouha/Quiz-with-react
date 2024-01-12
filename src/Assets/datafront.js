@@ -1,0 +1,42 @@
+export const datafront = [
+    {
+      question: "What does CSS stand for?",
+      option1: "Counter Style Sheet",
+      option2: "Computer Style Sheet",
+      option3: "Cascading Style Sheet",
+      option4: "Creative Style Sheet",
+      ans: 3,
+    },
+    {
+      question: "Which HTML tag is used for creating hyperlinks?",
+      option1: "<link>",
+      option2: "<url>",
+      option3: "<a>",
+      option4: "<hyperlink>",
+      ans: 3,
+    },
+    {
+      question: "What is the role of the <head> tag in HTML?",
+      option1: "It defines the main content of the document",
+      option2: "It contains metadata about the document",
+      option3: "It represents a navigation menu",
+      option4: "It defines a section in a document",
+      ans: 2,
+    },
+    {
+      question: "What is the purpose of JavaScript?",
+      option1: "Styling web pages",
+      option2: "Adding interactivity to web pages",
+      option3: "efining page structure",
+      option4: "Managing databases",
+      ans: 2,
+    },
+    {
+      question: "Which of the following is a version control system commonly used in web development?",
+      option1: "Git",
+      option2: "Java",
+      option3: "Python",
+      option4: "Ruby",
+      ans: 1,
+    },
+  ];
